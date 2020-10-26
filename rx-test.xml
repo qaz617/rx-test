@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
   <!-- 腾讯手机管家 -->
-  <prescription type="activity" package="ccom.tencent.server.fore.FileTypeOpenActivity" sender="other">
+  <prescription type="activity" package="com.tencent.qqpimsecure" class="com.tencent.server.fore.FileTypeOpenActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <host name="*" />
-          <pathPattern name=".*\.*" />
+      <scheme name="content"/>
+      <type name="*/*" />
     </intent-filter>
   </prescription>
 </prescriptions>
