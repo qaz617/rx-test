@@ -7,7 +7,7 @@
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
       <scheme name="content"/>
-      <type name="*/*" />
+         <type name="*/*" />
     </intent-filter>
   </prescription>
 </prescriptions>
