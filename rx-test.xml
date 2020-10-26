@@ -3,11 +3,11 @@
   <!-- 腾讯手机管家 -->
   <prescription type="activity" package="com.tencent.qqpimsecure" class="com.tencent.server.fore.FileTypeOpenActivity" sender="other">
     <intent-filter>
+      <type name="*/*" />
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
       <scheme name="content"/>
-         <type name="*/*" />
     </intent-filter>
   </prescription>
 </prescriptions>
